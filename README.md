@@ -2,15 +2,29 @@
 
 An enhancement to the virtual block selector. Filter existing blocks by block type so it's easier to find the element you're looking for. The element title is also augmented to include the page title.
 
-## License
+[![CI](https://github.com/dynamic/silverstripe-elemental-virtual-selector/actions/workflows/ci.yml/badge.svg)](https://github.com/dynamic/silverstripe-elemental-virtual-selector/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/dynamic/silverstripe-elemental-virtual-selector/branch/master/graph/badge.svg)](https://codecov.io/gh/dynamic/silverstripe-elemental-virtual-selector)
 
-See [License](LICENSE.md)
+[![Latest Stable Version](https://poser.pugx.org/dynamic/silverstripe-elemental-virtual-selector/v/stable)](https://packagist.org/packages/dynamic/silverstripe-elemental-virtual-selector)
+[![Total Downloads](https://poser.pugx.org/dynamic/silverstripe-elemental-virtual-selector/downloads)](https://packagist.org/packages/dynamic/silverstripe-elemental-virtual-selector)
+[![Latest Unstable Version](https://poser.pugx.org/dynamic/silverstripe-elemental-virtual-selector/v/unstable)](https://packagist.org/packages/dynamic/silverstripe-elemental-virtual-selector)
+[![License](https://poser.pugx.org/dynamic/silverstripe-elemental-virtual-selector/license)](https://packagist.org/packages/dynamic/silverstripe-elemental-virtual-selector)
+
+## Requirements
+
+* Silverstripe ^4
+* dnadesign/silverstripe-elemental-virtual ^1.2
+* sheadawson/silverstripe-dependentdropdownfield ^2.0
 
 ## Installation
 
 ```sh
 composer require dynamic/silverstripe-elemental-virtual-selector
 ```
+
+## License
+
+See [License](LICENSE.md)
 
 ## Getting more elements
 
