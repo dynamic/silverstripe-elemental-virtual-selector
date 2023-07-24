@@ -1,6 +1,6 @@
 {
-    "name": "silverstripe-module/skeleton",
-    "description": "A skeleton for Silverstripe CMS modules.",
+    "name": "dynamic/silverstripe-elemental-virtual-selector",
+    "description": "An enhancement to the virtual block selector. Filter by block type.",
     "type": "silverstripe-vendormodule",
     "keywords": [
         "silverstripe",
@@ -8,8 +8,8 @@
     ],
     "license": "BSD-3-Clause",
     "require": {
-        "silverstripe/framework": "^5.0",
-        "silverstripe/admin": "^2.0"
+        "sheadawson/silverstripe-dependentdropdownfield": "^2.0",
+        "silverstripe/framework": "^5.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
