@@ -1,1 +1,7 @@
-# see https://docs.silverstripe.org/en/developer_guides/configuration/configuration/
+DNADesign\Elemental\Models\BaseElement:
+  extensions:
+    - Dynamic\VirtualSelector\Extension\BaseElementDataExtension
+
+DNADesign\ElementalVirtual\Model\ElementVirtual:
+  extensions:
+    - Dynamic\VirtualSelector\Extension\ElementVirtualDataExtension
