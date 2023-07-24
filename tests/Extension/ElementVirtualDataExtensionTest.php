@@ -2,6 +2,7 @@
 
 namespace Dynamic\VirtualSelector\Test\Extension;
 
+use DNADesign\ElementalVirtual\Model\ElementVirtual;
 use SilverStripe\Dev\SapphireTest;
 
 class ElementVirtualDataExtensionTest extends SapphireTest
@@ -22,7 +23,8 @@ class ElementVirtualDataExtensionTest extends SapphireTest
 
     public function testUpdateCMSFields()
     {
-        $fields = $this->objFromFixture(ElementalVirtual::class, 'one')->getCMSFields();
+        $obj = $this->objFromFixture(ElementVirtual::class, 'one');
+        $fields = $obj->getCMSFields();
         $this->assertNotNull($fields->dataFieldByName('BlockType'));
     }
 }
