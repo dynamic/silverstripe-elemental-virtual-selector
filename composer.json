@@ -17,8 +17,8 @@
     },
     "autoload": {
         "psr-4": {
-            "SilverStripeModule\\Skeleton\\": "src/",
-            "SilverStripeModule\\Skeleton\\Tests\\": "tests/php/"
+            "Dynamic\\VirtualSelector\\": "src/",
+            "Dynamic\\VirtualSelector\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev",
