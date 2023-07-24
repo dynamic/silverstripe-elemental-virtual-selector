@@ -1,0 +1,3 @@
+DNADesign\ElementalVirtual\Model\ElementVirtual:
+  one:
+    'BlockType': 'DNADesign\Elemental\Models\ElementContent'
