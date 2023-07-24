@@ -49,9 +49,11 @@ class ElementVirtualDataExtension extends DataExtension
 
         $fields->replaceField(
             'LinkedElementID',
-            DependentDropdownField::create('LinkedElementID')
-                ->setTitle(_t(ElementVirtual::class . '.LinkedElement', 'Linked Element'))
-                ->setSource($dataSource)
+            DependentDropdownField::create(
+                'LinkedElementID',
+                _t(ElementVirtual::class . '.LinkedElement', 'Linked Element'),
+                $dataSource
+            )
                 ->setEmptyString('Select an element')
                 ->setDepends($fieldOne)
         );
