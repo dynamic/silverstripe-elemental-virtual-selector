@@ -1,12 +1,12 @@
 {
     "name": "dynamic/silverstripe-elemental-virtual-selector",
     "description": "An enhancement to the virtual block selector. Filter by block type.",
+    "license": "BSD-3-Clause",
     "type": "silverstripe-vendormodule",
     "keywords": [
         "silverstripe",
         "CMS"
     ],
-    "license": "BSD-3-Clause",
     "require": {
         "dnadesign/silverstripe-elemental-virtual": "^1.2",
         "sheadawson/silverstripe-dependentdropdownfield": "^2.0",
@@ -15,12 +15,12 @@
     "require-dev": {
         "silverstripe/recipe-testing": "^2"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Dynamic\\VirtualSelector\\": "src/",
             "Dynamic\\VirtualSelector\\Tests\\": "tests/"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
