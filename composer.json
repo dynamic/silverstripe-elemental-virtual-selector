@@ -22,5 +22,10 @@
             "Dynamic\\VirtualSelector\\": "src/",
             "Dynamic\\VirtualSelector\\Tests\\": "tests/"
         }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "2.x-dev"
+        }
     }
 }
